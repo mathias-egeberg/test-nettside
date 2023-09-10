@@ -4,15 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Responsivt design #1</title>
 </head>
 <body>
-    <h1>Dette er en test!</h1>
-    <p>Dette er en paragraf</p>
-    <div class="test1">
-        <h1>Dette er en test</h1>
-        <h2>Test1</h2>
-    </div>
+        <div class="container">
+            <!-- Sidebar seksjon -->
+            <aside>
+                <div class="toggle">
+                    <div class="logo">
+                        <!--<img src="bilder/logo.png"> -->
+                        <h2>Velkommen <span class="danger">bruker</span></h2>
+                    </div>
+                    <div class="close" id="colse-btn">
+                        <span class="material-icons-sharp">
+                            colse
+                        </span>
+                    </div>
+                </div>
+
+                <div class="sidebar">
+                    <a href="#">
+                        <span class="material-icons-sharp">
+                            dashboard
+                        </span>
+                        <h3>Dashboard</h3>
+                    </a>
+                    <a href="#">
+                        <span class="material-icons-sharp">
+                            person_outline
+                        </span>
+                        <h3>Bruker</h3>
+                    </a>
+                    <a href="#" class="active">
+                        <span class="material-icons-sharp">
+                            insights                            
+                        </span>
+                        <h3>Analyse</h3>
+                    </a>
+                </div>
+            </aside>
+
+
+        </div>
 </body>
 </html>

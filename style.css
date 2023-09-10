@@ -10,12 +10,8 @@ body{
 header{ 
   background-color: #6096BA;
   text-align: center;
-}
-
-
-h1 { 
-  display: inline-block;
-  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*Her ligger css for menyen, merk her at ved bruv av en container div i html blir listen og h1 alignet på samme linje*/
@@ -27,4 +23,19 @@ h1 {
 #navbar li{
   display: inline;
   padding: 20px;
+}
+
+.active { 
+  color: #274C77;
+}
+
+/*Her fjerner jeg understreken til linkene*/
+
+li a { 
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover { 
+  color: #274C77;
 }

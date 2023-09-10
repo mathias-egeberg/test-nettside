@@ -1,0 +1,5 @@
+white - #E7ECEF
+Blue 1 - #274C77
+Blue 2 - #6096BA
+Blue 3 - #A3CEF1
+Grey - #8B8C89
